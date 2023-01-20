@@ -37,11 +37,20 @@ html {
     top: 5px;
     width: 100%;
     font-size: 50px;
-    color: wheat;
+    color: gold;
 } 
 
 .portrait {
     background-color: white;
     padding: 10px;
     width: 350px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#button:nth-child(2) {
+    margin-left: 20px;
 }
