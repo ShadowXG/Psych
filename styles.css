@@ -1,0 +1,34 @@
+html {
+    background: url("pictures/Pysch.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.cover {
+    position: relative;
+    top: 25vh;
+    left: 5vw;
+}
+
+.people {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.people hr {
+    width: 100%;
+    border: none;
+}
+
+.person {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+/* .person:nth-child(3n) {
+    flex-basis: 100%;
+} */
