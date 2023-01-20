@@ -6,10 +6,9 @@ html {
     background-size: cover;
 }
 
-.cover {
+.page {
     position: relative;
-    top: 25vh;
-    left: 5vw;
+    top: 20vh;
 }
 
 .people {
@@ -27,8 +26,22 @@ html {
     object-fit: cover;
     width: 250px;
     height: 250px;
+    display: block;
+    border-style: solid;
+    border-color: white;
+    margin: 0 auto;
 }
 
-/* .person:nth-child(3n) {
-    flex-basis: 100%;
-} */
+.name {
+    text-align: center;
+    top: 5px;
+    width: 100%;
+    font-size: 50px;
+    color: wheat;
+} 
+
+.portrait {
+    background-color: white;
+    padding: 10px;
+    width: 350px;
+}
